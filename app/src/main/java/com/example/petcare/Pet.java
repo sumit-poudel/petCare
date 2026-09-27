@@ -1,66 +1,81 @@
 package com.example.petcare;
 
 public class Pet {
-    private String key, petName, petAge, petSex, petBreed, medicalDates;
 
-    public Pet() {
-        // Default constructor required for Firebase
+    private int id;
+    private String userUid;
+
+    private String name;
+    private String breed;
+    private String type;
+    private String age;
+    private String gender;
+    private String weight;
+    private String notes;
+    private String photoPath;
+
+    public Pet(
+            int id,
+            String userUid,
+            String name,
+            String breed,
+            String type,
+            String age,
+            String gender,
+            String weight,
+            String notes,
+            String photoPath
+    ) {
+
+        this.id = id;
+        this.userUid = userUid;
+        this.name = name;
+        this.breed = breed;
+        this.type = type;
+        this.age = age;
+        this.gender = gender;
+        this.weight = weight;
+        this.notes = notes;
+        this.photoPath = photoPath;
     }
 
-    public Pet(String key, String petName, String petAge, String petSex, String petBreed, String medicalDates) {
-        this.key = key;
-        this.petName = petName;
-        this.petAge = petAge;
-        this.petSex = petSex;
-        this.petBreed = petBreed;
-        this.medicalDates = medicalDates;
+    public int getId() {
+        return id;
     }
 
-    public String getKey() {
-        return key;
+    public String getUserUid() {
+        return userUid;
     }
 
-    public void setKey(String key) {
-        this.key = key;
+    public String getName() {
+        return name;
     }
 
-    public String getPetName() {
-        return petName;
+    public String getBreed() {
+        return breed;
     }
 
-    public void setPetName(String petName) {
-        this.petName = petName;
+    public String getType() {
+        return type;
     }
 
-    public String getPetAge() {
-        return petAge;
+    public String getAge() {
+        return age;
     }
 
-    public void setPetAge(String petAge) {
-        this.petAge = petAge;
+    public String getGender() {
+        return gender;
     }
 
-    public String getPetSex() {
-        return petSex;
+    public String getWeight() {
+        return weight;
     }
 
-    public void setPetSex(String petSex) {
-        this.petSex = petSex;
+    public String getNotes() {
+        return notes;
     }
 
-    public String getPetBreed() {
-        return petBreed;
-    }
-
-    public void setPetBreed(String petBreed) {
-        this.petBreed = petBreed;
-    }
-
-    public String getMedicalDates() {
-        return medicalDates;
-    }
-
-    public void setMedicalDates(String medicalDates) {
-        this.medicalDates = medicalDates;
+    public String getPhotoPath() {
+        return photoPath;
     }
 }

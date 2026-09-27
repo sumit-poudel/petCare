@@ -1,16 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">petcare</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="add_pet">Add Pet</string>
-    <!-- Other existing strings -->
+    <string name="app_name">PetCare</string>
 
-    <!-- Add these new strings -->
+    <!-- Home Activity -->
+    <string name="hello_default">Hello!</string>
+    <string name="home_subtitle">Let&apos;s take care of your pets</string>
+    <string name="pets_label">Pets</string>
+    <string name="routines_label">Routines</string>
+    <string name="completed_label">Completed</string>
+    <string name="your_pets">YOUR PETS</string>
+    <string name="add_pet_short">+ Add</string>
+    <string name="todays_routines">TODAY&apos;S ROUTINES</string>
+    <string name="see_all_routines">See all ›</string>
+    <string name="add_routine_button">+ Add Routine</string>
+    <string name="logout_button">Logout</string>
 
-    <string name="hospital">Hospital</string>
+    <!-- Tasks Routines Activity -->
+    <string name="care_routines">CARE ROUTINES</string>
+    <string name="daily_care_planner">Daily care planner</string>
+    <string name="pending_label">Pending</string>
+    <string name="total_label">Total</string>
+    <string name="filter_all">All</string>
+    <string name="filter_pending">Pending</string>
+    <string name="filter_done">Done</string>
+    <string name="empty_routines_title">🐾</string>
+    <string name="empty_routines_message">No routines yet. Tap + to create your first one.</string>
+    <string name="empty_add_routine">+ Add Routine</string>
 
-    <string name="buy">Buy</string>
+    <!-- My Pets Activity -->
+    <string name="my_pets">MY PETS</string>
+    <string name="your_lovely_companions">Your lovely companions</string>
+    <string name="add_pet_button">+ Add Pet</string>
+    <string name="empty_pets_title">🐾</string>
+    <string name="empty_pets_message">No pets yet. Tap + Add Pet to get started.</string>
+    <string name="empty_add_pet">+ Add Pet</string>
 
+    <!-- Task Item -->
+    <string name="missed_badge">Missed</string>
+    <string name="bullet_separator"> • </string>
+
+    <!-- Add/Edit Task Dialog -->
+    <string name="dialog_title_new">New care routine</string>
+    <string name="dialog_title_edit">Edit care routine</string>
+    <string name="hint_routine_title">Routine Title (e.g., Feed Max)</string>
+    <string name="hint_description">Description / Notes</string>
+    <string name="hint_choose_date">Tap to choose date</string>
+    <string name="hint_choose_time">Tap to choose time</string>
+    <string name="label_repeat">Repeat</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_save">Save</string>
+    <string name="error_title_required">Title required</string>
+    <string name="repeat_none">None</string>
+    <string name="repeat_daily">Daily</string>
+    <string name="repeat_weekly">Weekly</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_my_pets">My Pets</string>
+    <string name="nav_routines">Routines</string>
+
+    <!-- Pet Profile -->
+    <string name="pet_profile_title">Pet Profile</string>
+    <string name="back_button">‹</string>
+    <string name="pet_photo_placeholder">🐾</string>
+    <string name="default_pet_name">Buddy</string>
+    <string name="default_pet_type_breed">Dog • Labrador</string>
+    <string name="age_label">Age</string>
+    <string name="gender_label">Gender</string>
+    <string name="weight_label">Weight</string>
+    <string name="notes_label">NOTES</string>
+    <string name="no_notes">No notes added</string>
+    <string name="pet_info_format">Age: %1$s Weight: %2$s</string>
+
+    <!-- Login/Register -->
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="forgot_password_link">Forgot Password?</string>
+    <string name="register_link">Don&apos;t have an account? Register</string>
+    <string name="login_link">Already have an account? Login</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="name_hint">Name</string>
+    <string name="phone_hint">Phone</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="welcome_back">Welcome back!</string>
+    <string name="account_created">Account created successfully</string>
+    <string name="invalid_credentials">Invalid email or password</string>
+    <string name="email_exists">Email already exists</string>
+    <string name="password_min_length">Password must contain at least 6 characters</string>
+    <string name="passwords_mismatch">Passwords do not match</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="enter_valid_email">Enter a valid email</string>
+    <string name="password_reset_sent">Password reset email sent. Check your inbox.</string>
+    <string name="password_reset_failed">Failed to send reset email</string>
+
+    <!-- Forgot Password -->
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="reset_password_button">Reset Password</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="new_password_hint">New Password</string>
+    <string name="confirm_new_password_hint">Confirm New Password</string>
+    <string name="password_updated">Password updated. Please log in.</string>
+    <string name="password_update_failed">Could not update password</string>
+    <string name="no_account_found">No account found with this email</string>
+
+    <!-- Pet Dialog -->
+    <string name="dialog_title_add_pet">Add Pet</string>
+    <string name="dialog_title_edit_pet">Edit Pet</string>
+    <string name="pet_name_hint">Pet Name</string>
+    <string name="pet_breed_hint">Breed</string>
+    <string name="pet_age_hint">Age</string>
+    <string name="pet_weight_hint">Weight</string>
+    <string name="pet_notes_hint">Notes</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="pet_added">Pet added</string>
+    <string name="pet_updated">Pet updated</string>
+    <string name="pet_name_required">Pet name is required</string>
+    <string name="delete_pet_title">Delete Pet</string>
+    <string name="delete_pet_confirm">Are you sure you want to delete %s?</string>
+    <string name="pet_deleted">Pet deleted</string>
+    <string name="pet_types">Dog,Cat,Bird,Rabbit,Other</string>
+    <string name="pet_genders">Male,Female</string>
+
+    <string-array name="pet_types_array">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Bird</item>
+        <item>Rabbit</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="pet_genders_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="repeat_types_array">
+        <item>@string/repeat_none</item>
+        <item>@string/repeat_daily</item>
+        <item>@string/repeat_weekly</item>
+    </string-array>
+
+    <!-- Task Dialog Actions -->
+    <string name="mark_done">Mark done</string>
+    <string name="mark_pending">Mark pending</string>
+    <string name="edit_task">Edit</string>
+    <string name="delegate_sms">Delegate by SMS</string>
+    <string name="delete_task">Delete</string>
+    <string name="delegate_title">Delegate routine</string>
+    <string name="phone_hint_delegate">Phone number</string>
+    <string name="send_sms_button">Send SMS</string>
+    <string name="sms_message">PetCare routine: %1$s on %2$s at %3$s</string>
+    <string name="sms_failed">Failed to send SMS: %s</string>
+    <string name="sms_sent">SMS sent to %s</string>
+    <string name="routine_created">Routine created</string>
+    <string name="pet_update_failed">Could not create routine</string>
+    <string name="sms_failed">Failed to send SMS: %s</string>
+    <string name="device_no_sms">This device can&apos;t send SMS</string>
+    <string name="enter_phone">Enter a phone number</string>
+    <string name="routine_marked_done">Routine marked done ✓</string>
+    <string name="routine_marked_pending">Routine marked pending</string>
+    <string name="editing_routine">Editing routine</string>
+
+    <!-- Notifications/Reminders -->
+    <string name="reminder_overdue">Missed</string>
+    <string name="create_routine_title">Create Routine</string>
+    <string name="create_routine_subtitle">Create a personalised care task</string>
+    <string name="routine_title_hint">Routine title</string>
+    <string name="description_hint">Description</string>
+    <string name="select_date_hint">Select date</string>
+    <string name="select_time_hint">Select time</string>
+    <string name="save_routine_button">SAVE ROUTINE</string>
 
 </resources>

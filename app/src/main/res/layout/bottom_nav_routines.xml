@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:orientation="horizontal"
+    android:background="@color/surface"
+    android:elevation="16dp"
+    android:weightSum="3">
+
+    <TextView
+        android:id="@+id/navHome"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Home"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/navPets"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Pets"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/navRoutines"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Routines"
+        android:gravity="center"/>
+
+</LinearLayout>
+
